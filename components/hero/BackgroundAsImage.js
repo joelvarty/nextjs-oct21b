@@ -74,9 +74,9 @@ const BackgroundAsImage = ({ backgroundImage, title, subTitle, announcement, pri
           <LeftColumn>
             <Notification>{announcement}</Notification>
             <Heading>
-              <span>{title}</span>
-              <br />
-              <SlantedBackground>{subTitle}</SlantedBackground>
+              {/* <span>{title} {subTitle}</span> */}
+               {/* <br /> */}
+              <SlantedBackground>{title} {subTitle}</SlantedBackground>
             </Heading>
             <PrimaryAction href={primaryCTA.href} target={primaryCTA.target}>{primaryCTA.text}</PrimaryAction>
           </LeftColumn>

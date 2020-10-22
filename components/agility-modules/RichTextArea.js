@@ -9,7 +9,7 @@ const RichTextArea =  (props) => {
 	return (
 		<Container>
 			<ContentWithPaddingLg>
-				<RichText className="prose" dangerouslySetInnerHTML={renderHTML(props.fields.textblob)}></RichText>
+				<RichText dangerouslySetInnerHTML={renderHTML(props.fields.textblob)}></RichText>
 			</ContentWithPaddingLg>
 		</Container>
 	);
